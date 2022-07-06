@@ -197,7 +197,7 @@
     .contributebtn{
         text-align: center;
         font-size: 15px;
-        margin-left: 30%;
+        margin-left: 2%;
         text-decoration: none;
     
         
@@ -209,17 +209,20 @@
 
     }
     #contributeLast{
-        margin-right: 20%;
+      margin-right: 52%;
+      font-size: 15px;
+      font-weight:700;
+      color: black;
 
     }
     #updates{
         text-align: center;
     }
     .email{
-        margin-left: 30%;
+        margin-left: 25%;
         border-style: solid;
         border-color: rgb(0, 255, 47);
-        width: 30%;
+        width: 40%;
         padding: 15px ;
        
 
