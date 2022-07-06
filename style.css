@@ -1,214 +1,244 @@
-body{
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-}
-.headline1{
-    color:lime;
-    font-weight: 700;
-    padding-left: 15px;
-    
-    
-    
-}
-h1{
-    color: rgb(246, 17, 17);
-    text-align: right;
-    font-size: 30px;
-    
-}
-span{
-    color:rgb(255, 140, 0)
-}
-.section1{
-    background-image: url(img/donation5.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display:flex;
-    min-height: 600px;
-    margin-bottom: 150px;
-}
-.headline2{
-text-align: center;
-color:rgba(24, 248, 58, 0.664);
-font-size: 50px;
-padding-top: 50px;
-padding-right: 50px;
-background: -webkit-linear-gradient(rgb(31, 255, 6), rgb(7, 255, 143));
--webkit-background-clip: text;
--webkit-text-fill-color:transparent;
-}
-.para{
-    font-weight: 900;
-    font-size: 25px;
+    body{
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+    }
+    .headline1{
+        color:lime;
+        font-weight: 700;
+        padding-left: 15px;
+        
+        
+        
+    }
+    h1{
+        color: rgb(246, 17, 17);
+        text-align: right;
+        font-size: 30px;
+        
+    }
+    span{
+        color:rgb(255, 140, 0)
+    }
+    .section1{
+        background-image: url(img/donation5.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display:flex;
+        min-height: 600px;
+        margin-bottom: 150px;
+    }
+    .headline2{
     text-align: center;
-    padding-top: 15px;
-    padding-left: 20px;
-    color:rgb(243, 250, 250) ;
-    background: -webkit-linear-gradient(rgb(0, 248, 29), rgb(7, 230, 255));
+    color:rgba(24, 248, 58, 0.664);
+    font-size: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    background: -webkit-linear-gradient(rgb(31, 255, 6), rgb(7, 255, 143));
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
+    }
+    .para{
+        font-weight: 900;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 15px;
+        padding-left: 20px;
+        color:rgb(243, 250, 250) ;
+        background: -webkit-linear-gradient(rgb(0, 248, 29), rgb(7, 230, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        
+        
+    }
+    .first-div{
+        width: 100%;
+        padding-left:2% ;
+    }
+    .btn1{text-align: center;
+        text-decoration: none;
+        background-image: linear-gradient(orange, lime);
+        padding: 10px 40px;
+        border-radius: 5px;
+        color: rgb(39, 38, 38);
+        font-weight: 700;
+        margin-left: 500px;
+    }
+    .btn1:hover{
+        background-image: linear-gradient(lime,orange);
+
+    }
+    .headline3{
     
-    
-}
-.first-div{
-    width: 100%;
-    padding-left:2% ;
-}
-.btn1{text-align: center;
-    text-decoration: none;
-    background-image: linear-gradient(orange, lime);
-    padding: 10px 40px;
-    border-radius: 5px;
-    color: rgb(39, 38, 38);
-    font-weight: 700;
-    margin-left: 500px;
-}
-.btn1:hover{
-    background-image: linear-gradient(lime,orange);
-
-}
-.headline3{
-   
-    text-decoration-color: rgb(18, 19, 19);
-    text-align: center;
-    color:rgb(4, 4, 4);
-    font-size: 30px;
-}
-.boxshadow{
-    text-align: center;
-    box-shadow:  10px 10px 40px gray;
-    width: 5%;
-    margin: 2%;
-    padding: 10px 20px;
-    border-radius: 10px;
-   
-
-
-}
-
-
-.box-parent{
-    display: flex;
-   margin-left: 30%;
-}
-.input{
-    border-color: rgb(17, 16, 16);
-    border-top: 0px;
-    border-left: 0px ;
-    border-right: 0px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 20px;
-    padding-top: 2%;
-    margin-left: 3%;
-}
-.btn2{
-    text-align: center;
-    margin-top: 30px;
-    margin-right: 31%;
-    
-    
-}
-.section2{
-    padding-right: 5%;
+        text-decoration-color: rgb(18, 19, 19);
+        text-align: center;
+        color:rgb(4, 4, 4);
+        font-size: 30px;
+    }
+    .boxshadow{
+        text-align: center;
+        box-shadow:  10px 10px 40px gray;
+        width: 5%;
+        margin: 2%;
+        padding: 10px 20px;
+        border-radius: 10px;
     
 
-}
-.selectamount{
-    border-style: solid;
-    border-color: rgb(3, 44, 251);
-    background-image: linear-gradient(lime,rgb(0, 238, 255));
 
-}
+    }
 
-#section3{
-    text-align: center;
-    padding-left: 6%;
-    padding-top: 20px;
-    
-}
-#plan{
-    margin-left: 15%;
 
-}
-.allbox{
-    width: 20%;
-    
-
-}
-.boximg{
-    
-    padding-right: 90%;
-
-}
-#fooddiv{
-    background-image: linear-gradient(rgb(250, 96, 96),rgb(0, 30, 255));
-}
-#shelterdiv{
-    background-image: linear-gradient(rgb(33, 99, 123),rgb(246, 0, 152));;
-}
-#educationdiv{
-    background-image: linear-gradient(rgb(79, 123, 33),rgb(123, 0, 246));
-}
-.foodpara{
-    text-align: center;
-    font-size: medium;
-    
-}
-.section4{
-    display:flex;
-}
-.sec4Img{
-    margin-top: 5%;
-    width: 70%;
-    
-    border-radius: 10px;
-    margin-left: 10%;
-}
-
-    
-.donation{
-    text-align: center;
-    margin-top: 5%;
-   margin-left:2% ;
-   margin-right: 2%;
-   color: black;
-   
-    
-}
-#donationpara{
-    margin-left: 2%;
-    text-align: center;
-    font-size: 20px;
-    color: rgb(6, 6, 6);
-}
-.donationdiv{
-    margin-left: 5%;
-    width: 50%;
-    margin-top: 7%;
-}
-
-#lastpic{
-    margin-left: 10%;
-}
-
-.contributebtn{
-    text-align: center;
-    font-size: 15px;
+    .box-parent{
+        display: flex;
     margin-left: 30%;
-    text-decoration: none;
-   
+    }
+    .input{
+        border-color: rgb(17, 16, 16);
+        border-top: 0px;
+        border-left: 0px ;
+        border-right: 0px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 20px;
+        padding-top: 2%;
+        margin-left: 3%;
+    }
+    .btn2{
+        text-align: center;
+        margin-top: 30px;
+        margin-right: 31%;
+        
+        
+    }
+    .section2{
+        padding-right: 5%;
+        
+
+    }
+    .selectamount{
+        border-style: solid;
+        border-color: rgb(3, 44, 251);
+        background-image: linear-gradient(lime,rgb(0, 238, 255));
+
+    }
+
+    #section3{
+        text-align: center;
+        padding-left: 6%;
+        padding-top: 20px;
+        
+    }
+    #plan{
+        margin-left: 15%;
+
+    }
+    .allbox{
+        width: 20%;
+        
+
+    }
+    .boximg{
+        
+        padding-right: 90%;
+
+    }
+    #fooddiv{
+        background-image: linear-gradient(rgb(250, 96, 96),rgb(0, 30, 255));
+    }
+    #shelterdiv{
+        background-image: linear-gradient(rgb(33, 99, 123),rgb(246, 0, 152));;
+    }
+    #educationdiv{
+        background-image: linear-gradient(rgb(79, 123, 33),rgb(123, 0, 246));
+    }
+    .foodpara{
+        text-align: center;
+        font-size: medium;
+        
+    }
+    .section4{
+        display:flex;
+    }
+    .sec4Img{
+        margin-top: 5%;
+        width: 70%;
+        
+        border-radius: 10px;
+        margin-left: 10%;
+    }
+
+        
+    .donation{
+        text-align: center;
+        margin-top: 2%;
+    margin-left:2% ;
+    margin-right: 2%;
+    color: black;
+    font-weight: bold;
     
-}
-.survive{
-    margin-right: 5%;
-    margin-top: 7%;
-   
-    height: 70%;
+        
+    }
+    #donationpara{
+        margin-left: 2%;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(6, 6, 6);
+    }
+    .donationdiv{
+        margin-left: 5%;
+        width: 50%;
+        margin-top: 7%;
+    }
 
-}
-#contributeLast{
-    margin-right: 20%;
+    #lastpic{
+        margin-left: 10%;
+    }
 
-}
+    .contributebtn{
+        text-align: center;
+        font-size: 15px;
+        margin-left: 30%;
+        text-decoration: none;
+    
+        
+    }
+    .survive{
+        margin-right: 5%;
+        margin-top: 7%;
+    
+        height: 70%;
+
+    }
+    #contributeLast{
+        margin-right: 20%;
+
+    }
+    .email{
+        margin-left: 37%;
+        border-style: solid;
+        border-color: rgb(0, 255, 47);
+        width: 20%;
+
+    }
+    .subsbtn{
+        font-weight: 700;
+        background-image: linear-gradient(orange, lime);
+        margin-bottom: 10px;
+    }
+    .subsbtn:hover{
+        background-image: linear-gradient(lime, orange);
+
+    }
+    footer{
+        
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        color: rgb(20, 251, 4);
+        display: flex;
+        
+    }
+    .footertxt{
+        text-align: center;
+        padding-left: 20%;
+    }
