@@ -62,9 +62,7 @@ p{
     border-radius: 5px;
     color: rgb(39, 38, 38);
     font-weight: 700;
-   margin-left: 500px;
-    
-    
+    margin-left: 500px;
 }
 .btn1:hover{
     background-image: linear-gradient(lime,orange);
@@ -76,7 +74,33 @@ p{
     text-align: center;
     color:rgb(4, 4, 4);
     font-size: 30px;
-   
-    
-    
+}
+.boxshadow{
+    text-align: center;
+    width: 5%;
+    box-shadow:  10px 10px 40px gray;
+    margin: 2%;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.box-parent{
+    display: flex;
+   margin-left: 30%;
+}
+.input{
+    border-color: white;
+    border-top: 0px;
+    border-left: 0px ;
+    border-right: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    padding-top: 2%;
+    margin-left: 10%;
+}
+.btn2{
+    margin-top: 50px;
+    margin-left: 12%;
 }
