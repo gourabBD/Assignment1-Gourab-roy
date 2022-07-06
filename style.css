@@ -38,7 +38,7 @@ background: -webkit-linear-gradient(rgb(31, 255, 6), rgb(7, 255, 143));
 -webkit-background-clip: text;
 -webkit-text-fill-color:transparent;
 }
-p{
+.para{
     font-weight: 900;
     font-size: 25px;
     text-align: center;
@@ -77,11 +77,13 @@ p{
 }
 .boxshadow{
     text-align: center;
-    width: 5%;
     box-shadow:  10px 10px 40px gray;
+    width: 5%;
     margin: 2%;
     padding: 10px 20px;
     border-radius: 10px;
+   
+
 
 }
 
@@ -113,6 +115,12 @@ p{
     
 
 }
+.selectamount{
+    border-style: solid;
+    border-color: rgb(3, 44, 251);
+    background-image: linear-gradient(lime,rgb(0, 238, 255));
+
+}
 
 #section3{
     text-align: center;
@@ -134,8 +142,73 @@ p{
     padding-right: 90%;
 
 }
+#fooddiv{
+    background-image: linear-gradient(rgb(250, 96, 96),rgb(0, 30, 255));
+}
+#shelterdiv{
+    background-image: linear-gradient(rgb(33, 99, 123),rgb(246, 0, 152));;
+}
+#educationdiv{
+    background-image: linear-gradient(rgb(79, 123, 33),rgb(123, 0, 246));
+}
 .foodpara{
     text-align: center;
     font-size: medium;
     
+}
+.section4{
+    display:flex;
+}
+.sec4Img{
+    margin-top: 5%;
+    width: 70%;
+    
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+    
+.donation{
+    text-align: center;
+    margin-top: 5%;
+   margin-left:2% ;
+   margin-right: 2%;
+   color: black;
+   
+    
+}
+#donationpara{
+    margin-left: 2%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(6, 6, 6);
+}
+.donationdiv{
+    margin-left: 5%;
+    width: 50%;
+    margin-top: 7%;
+}
+
+#lastpic{
+    margin-left: 10%;
+}
+
+.contributebtn{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 30%;
+    text-decoration: none;
+   
+    
+}
+.survive{
+    margin-right: 5%;
+    margin-top: 7%;
+   
+    height: 70%;
+
+}
+#contributeLast{
+    margin-right: 20%;
+
 }
